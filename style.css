@@ -1,0 +1,656 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@600&family=Roboto+Condensed:wght@400;600&family=Roboto:wght@500&display=swap');
+
+.topbar
+{
+  background-color:#182a36;
+  border-top: 0.5px solid rgb(101, 103, 107);
+  border-bottom: 1px solid rgb(101, 103, 107);
+  color: #479aa9;
+}
+
+
+.navbar
+{
+  
+    font-family: 'Merriweather', serif;
+    background-color: #15222b;
+    margin-top: 40px;
+    padding-top: 10px;
+
+    
+}
+.navbar img
+{
+
+padding-right: 20px;
+}
+#all_P
+{
+  font-family: 'Kanit';
+  font-size: 1.5rem;
+  color: rgb(10, 67, 91);
+  margin-top:0;
+  cursor: pointer;
+}
+
+#all_heading
+{
+  font-family: 'Kanit';
+  font-size: 3rem;
+  color: rgb(32, 80, 117);
+  margin-top:0;
+  cursor: pointer;
+}
+#LOGO_Heading
+{
+    font-family: 'Kanit';
+    font-size: 1.9rem;
+    text-align: center;
+    background: linear-gradient(91deg, rgb(129, 202, 210) 0%, #58b0ad 25%, #3ab6cb 75%, rgb(17, 188, 200) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top:0;
+    cursor: pointer;
+}
+
+@media  (max-width: 380px) {
+  #LOGO_Heading
+{
+    font-family: 'Kanit';
+    font-size: 1.2rem;
+    text-align: center;
+    color: aliceblue;
+    margin-top:0;
+    cursor: pointer;
+}
+#all_P
+{
+  font-family: 'Kanit';
+  font-size: 1rem;
+  color: rgb(10, 16, 20);
+  margin-top:0;
+  cursor: pointer;
+  text-align: center;
+}
+#all_heading
+{
+  font-family: 'Kanit';
+  font-size: 2rem;
+  color: rgb(12, 13, 14);
+  margin-top:0;
+  cursor: pointer;
+}
+
+}
+.navbar ul li
+
+     
+      /* mouse over link */
+      a:hover {
+        color: white;
+      }
+      
+     
+
+.navbar ul{
+    justify-content: 5px;
+    font-size: larger;
+    margin:   5px 10px;
+    a:visited {
+      color:rgb(23, 187, 209);
+    }
+    
+  
+}
+.navbar ul li a{
+  justify-content: 5px;
+  font-size: larger;
+  margin:   0px 10px;
+}
+
+
+.box_1{
+
+  box-shadow: 0 3px 20px -2px rgba(238, 239, 241, 0.1);
+  background: rgb(222, 220, 228);
+  color:rgb(4, 52, 107);
+  height: 20rem;
+  border-top: 4px solid #170f0f;
+  border-radius: 5px;
+  text-align: left;
+}
+#box_heading
+{
+  font-size: 1rem;
+}
+
+
+
+
+/* =========== Home ========== */
+.Home
+{
+background-image: url(./asset/5.jpg);
+margin-top: 0;
+}
+
+.mop
+{
+padding: 5rem 0;
+margin-top: 3.5rem;
+
+}
+
+
+#mop_heading
+{
+  font-family: 'Kanit';
+    font-size: 3.5rem;
+    color: #8fb7c4;
+    margin-top:0;
+    cursor: pointer;
+}
+@media  (max-width: 350px) {
+  #mop_heading
+  {
+    font-family: 'Kanit';
+      font-size: 1.5rem;
+      color: #8fb7c4;
+      margin-top:0;
+      cursor: pointer;
+  }
+}
+
+#mop_heading1
+{
+  font-family: 'Kanit';
+    font-size: 2rem;
+    color: #77c5c5;
+    margin-top:0;
+    cursor: pointer;
+}
+@media  (max-width: 350px) {
+  #mop_heading1
+  {
+    font-family: 'Kanit';
+      font-size: 0.99rem;
+      color: #8fb7c4;
+      margin-top:0;
+      cursor: pointer;
+  }
+}
+
+.mop1
+{
+  color: #3ab6cb;
+  padding-top: 3.2rem;
+  animation: slidefromleft 4s ease-in-out forwards;
+  opacity: 0;
+}
+@keyframes slidefromleft
+{
+  0%{
+    opacity: 0;
+    transform: translate(-100%);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+
+  }
+}
+
+.hero-img:hover
+{
+  transform: scale(1.2);
+}
+
+/* ====== Home End======= */
+/* ====== About======= */
+.about
+{ 
+  padding-top: 7rem;
+  background-color:  #e0e6eb;
+  
+}
+.about1
+{
+ 
+  padding-bottom: 2rem;
+
+}
+.about_img
+{
+  padding-top: 30px;
+  
+}
+
+.about_img:hover
+{
+  transform: scale(1.2);
+}
+@media  (max-width: 400px) {
+  .about{
+ 
+    margin: 10px 10px;
+    padding: 5px 5px;
+  }
+}
+/* ====== About End======= */
+
+/* =========Course================ */
+.Course
+{
+
+  
+}
+@media  (max-width: 350px) {
+  .Course{
+    padding-top: 8rem;
+   
+  }
+}
+.Course1
+{
+
+  margin: 70px 150px 50px 150px;
+  padding: 20px 50px 20px 50px;
+  background-color:rgb(241, 238, 247); 
+  box-sizing: border-box;
+  box-shadow: 10px 15px 5px 5px rgb(227, 201, 201);
+}
+
+@media  (max-width: 400px) {
+  .Course1{
+ 
+    margin: 10px 10px;
+    padding: 5px 5px;
+  }
+
+}
+.box_1{
+  padding: 60px 40px;
+  margin-top: 40px;
+  box-shadow: 0 3px 20px -2px rgba(60, 97, 177, 0.1);
+  background: rgb(222, 220, 228);
+  color:rgb(133, 34, 19);
+  height: 20rem;
+  border-top: 4px solid #170f0f;
+  border-radius: 5px;
+  text-align: left;
+}
+@media screen and (min-width: 350px){
+  .box_1{
+    margin: 15px 15px;
+    padding: 15px 15px;
+  }
+
+}
+/* =========Course End================ */
+
+
+/* =========Teacher================ */
+.Teacher
+{
+  padding-top: 4rem;
+  
+}
+@media  (max-width: 350px) {
+  .Teacher{
+    padding-top: 6rem;
+    margin: 15px 15px;
+    padding: 5px 5px;
+  }
+}
+.Teacher1
+{
+
+  margin: 70px 150px 50px 150px;
+  padding: 30px 20px 20px 30px;
+  background-color:rgb(241, 238, 247); 
+  box-sizing: border-box;
+  box-shadow: 10px 15px 5px 5px rgb(227, 201, 201);
+}
+
+@media  (max-width: 400px) {
+  .Teacher1{
+ 
+    margin: 10px 10px;
+    padding: 5px 5px;
+  }
+
+}
+.box_2{
+  padding: 60px 40px;
+  margin-top: 40px;
+  padding-top: 40px;
+  box-shadow: 0 3px 20px -2px rgba(60, 97, 177, 0.1);
+  background: rgb(222, 220, 228);
+  color:rgb(133, 34, 19);
+  height: 15rem;
+  border-top: 4px solid #170f0f;
+  border-radius: 5px;
+  text-align: left;
+}
+@media screen and (min-width: 350px){
+  .box_2{
+    margin: 15px 15px;
+    padding: 15px 15px;
+  }
+
+}
+
+/* =========END Teacher================ */
+
+.Course
+{
+  padding-top: 4rem;
+  
+}
+
+
+/* ======================= */
+
+
+
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio{
+
+ background-color:  #e0e6eb;
+ padding-top: 3rem;
+
+}
+.portfolio #portfolio-flters {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 5px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  transition: all 0.3s;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  background: #47b2e4;
+  color: #fff;
+}
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio .portfolio-item .portfolio-img {
+  overflow: hidden;
+}
+
+.portfolio .portfolio-item .portfolio-img img {
+  transition: all 0.6s;
+}
+
+.portfolio .portfolio-item .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  z-index: 3;
+  right: 15px;
+  transition: all 0.3s;
+  background: rgba(55, 81, 126, 0.8);
+  padding: 10px 15px;
+}
+
+.portfolio .portfolio-item .portfolio-info h4 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.portfolio .portfolio-item .portfolio-info p {
+  color: #f9fcfe;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
+  position: absolute;
+  right: 40px;
+  font-size: 24px;
+  top: calc(50% - 18px);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
+  color: #47b2e4;
+}
+
+.portfolio .portfolio-item .portfolio-info .details-link {
+  right: 10px;
+}
+
+.portfolio .portfolio-item:hover .portfolio-img img {
+  transform: scale(1.15);
+}
+
+.portfolio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 40px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #47b2e4;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #47b2e4;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+
+
+
+
+/* ==========Career Guidance=========== */
+
+.Career
+{
+
+ background-color: #15222b;
+ color: rgb(129, 202, 210);
+ padding-bottom: 50px;
+ padding-top: 2rem;
+ font-family: 'Kanit';
+ font-size: 1.5rem;
+}
+.career1
+{
+  padding-left: 25px;
+}
+#Career_heading
+{
+  font-family: 'Kanit';
+  font-size: 2.5rem;
+  background: linear-gradient(91deg, rgb(188, 219, 223) 0%, #58b0ad 25%, #3ab6cb 75%, rgb(17, 188, 200) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 5px;
+}
+#Career_para
+{
+
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contect
+{
+  background-color: #e0e6eb;
+  padding: 8%;
+}
+
+
+.contect_1
+{
+ color: #db3618;
+}
+.contect_2
+{
+  color: #db3618;
+  font-size: large;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.btn
+{
+  background-color: #0e3e52;
+  font-size: larger;
+  color: #e0e6eb;
+  border: 2px red;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer p
+{
+color:  rgb(129, 202, 210);
+}
+.product a 
+{
+  color: rgb(129, 202, 210);
+  text-decoration: none;
+}
+.product  i
+{
+  color:#b5230f;
+}
+.icons i
+{
+  color:#b5230f;
+}
+.icons p
+{
+  color: rgb(129, 202, 210);
+}
+
+
+#LOGO_footer
+{
+  font-family: 'Kanit';
+  font-size: 2.2rem;
+  background: linear-gradient(91deg, rgb(129, 202, 210) 0%, #58b0ad 25%, #3ab6cb 75%, rgb(17, 188, 200) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer_heading
+{
+  font-family: 'Kanit';
+  font-size: 1.8rem;
+  background: linear-gradient(91deg, rgb(129, 202, 210) 0%, #58b0ad 25%, #3ab6cb 75%, rgb(17, 188, 200) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+}
+.Copyright
+{
+  color: rgb(129, 202, 210);
+}
+.Copyright_1 a i
+{
+  color: #d24618;
+}
